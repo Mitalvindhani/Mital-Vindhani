@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mital-Vindhani</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Mital Vindhani</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Certificate">Certificate</a></li>
+                <li><a href="#experience">Experience</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="dropdown-menu" id="dropdownMenu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Certificate">Certificate</a></li>
+                <li><a href="#experience">Experience</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Mittal Vindani</h1>
+            <p class="hero-description">
+                I’m a React.js Frontend Developer from Gujarat , with hands-on
+                experience working on live projects during my internship at
+                <span class="highlight"> Zennex</span>. I have also completed a React
+                course at <span class="highlight">Dreamspot IT Academy</span>. I
+                specialize in building responsive, user-friendly, and visually
+                appealing web interfaces. Skilled in HTML, CSS, JavaScript, and
+                React.js, I focus on creating modern, performance-optimized websites
+                that deliver seamless user experiences.
+            </p>
+            <div class="hero-buttons">
+                <a href="https://drive.google.com/file/d/1WAnixcxm3WEVhFXfxXnLT3qHwkGBT2Fn/view" class="download-btn">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                        </path>
+                    </svg>
+                    Download CV
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-container">
+                <div class="blob-shape">
+                    <img src="https://mitalvindhani.github.io/My-Portfolio/images/profile-pic.jpg"
+                        alt="Mital-Vindhani" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" id="Skills">
+        <h1 class="skills">Skills & Expertise</h1>
+
+        <div class="grid">
+            <!-- Front-end Engineer Design -->
+            <div class="card">
+                <div class="card-title">Programming</div>
+                <div class="tech-item">
+                    <div class="tech-icon icon-react">
+                        <img class="icons" src="Icon/html-5-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">HTML</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon icon-react">
+                        <img class="icons" src="Icon/css-3-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">CSS</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon icon-next">
+                        <img class="icons" src="Icon/javascript-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">Javascript</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon icon-vite">
+                        <img class="icons" src="Icon/tailwind-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">Tailwind</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon icon-figma">
+                        <img class="icons" src="Icon/Vite.js.svg" />
+                    </div>
+                    <div class="tech-name">Vite</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon icon-figma">
+                        <img class="icons" src="Icon/react-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">React</div>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="card">
+                <div class="card-title">Design</div>
+                <div class="tech-item">
+                    <div class="tech-icon icon-js">
+                        <img class="icons" src="Icon/photoshop-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">Photoshop</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon icon-ts">
+                        <img class="icons" src="Icon/adobe-illustrator-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">Illustrator</div>
+                </div>
+
+                <div class="tech-item">
+                    <div class="tech-icon icon-ts">
+                        <img class="icons" src="Icon/adobe-xd-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">Adobe XD</div>
+                </div>
+
+                <div class="tech-item">
+                    <div class="tech-icon icon-ts">
+                        <img class="icons" src="Icon/figma-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">Figma</div>
+                </div>
+            </div>
+
+            <!-- Devops -->
+            <div class="card">
+                <div class="card-title">Tools</div>
+                <div class="tech-item">
+                    <div class="tech-icon icon-github">
+                        <img class="icons" src="Icon/vs-code-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">VS Code</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon icon-nginx">
+                        <img class="icons" src="Icon/bootstrap-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">Bootstrap</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon icon-docker">
+                        <img class="icons" src="Icon/wordpress-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">Wordpress</div>
+                </div>
+
+                <div class="tech-item">
+                    <div class="tech-icon icon-docker">
+                        <img class="icons" src="Icon/github-svgrepo-com.svg" />
+                    </div>
+                    <div class="tech-name">Github</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Showcase -->
+
+    <section class="xp-section" id="Project">
+        <div class="xp-container">
+            <div class="xp-left">
+                <h1 class="xp-title">
+                    Featured <br />
+                    Projects
+                </h1>
+                <br />
+            </div>
+
+            <div class="xp-right">
+                <!-- Swiper Container -->
+                <div class="swiper xp-swiper">
+                    <div class="swiper-wrapper xp-swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="xp-card">
+                                <h3>Social Dashboard</h3>
+                                <p>
+                                    Real-time analytics dashboard with interactive charts and
+                                    data visualization for social media metrics Real-time
+                                    analytics dashboard with interactive charts and data
+                                    visualization for social media metrics Real-time analytics
+                                    dashboard with interactive charts and data visualization for
+                                    social media metrics.
+                                </p>
+                                <div class="xp-footer">
+                                    <div class="xp-tags">
+                                        <span class="xp-tag">React</span>
+                                        <span class="xp-tag">D3.js</span>
+                                        <span class="xp-tag">Redux</span>
+                                    </div>
+
+                                    <a href="https://diamond-web-sneh.netlify.app" target="_blank" class="project-link">
+                                        Visit Live Site
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="xp-card">
+                                <h3>Social Dashboard</h3>
+                                <p>
+                                    Real-time analytics dashboard with interactive charts and
+                                    data visualization for social media metrics Real-time
+                                    analytics dashboard with interactive charts and data
+                                    visualization for social media metrics Real-time analytics
+                                    dashboard with interactive charts and data visualization for
+                                    social media metrics.
+                                </p>
+                                <div class="xp-footer">
+                                    <div class="xp-tags">
+                                        <span class="xp-tag">React</span>
+                                        <span class="xp-tag">D3.js</span>
+                                        <span class="xp-tag">Redux</span>
+                                    </div>
+
+                                    <a href="https://diamond-web-sneh.netlify.app" target="_blank" class="project-link">
+                                        Visit Live Site
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="xp-card">
+                                <h3>Social Dashboard</h3>
+                                <p>
+                                    Real-time analytics dashboard with interactive charts and
+                                    data visualization for social media metrics Real-time
+                                    analytics dashboard with interactive charts and data
+                                    visualization for social media metrics Real-time analytics
+                                    dashboard with interactive charts and data visualization for
+                                    social media metrics.
+                                </p>
+                                <div class="xp-footer">
+                                    <div class="xp-tags">
+                                        <span class="xp-tag">React</span>
+                                        <span class="xp-tag">D3.js</span>
+                                        <span class="xp-tag">Redux</span>
+                                    </div>
+
+                                    <a href="https://diamond-web-sneh.netlify.app" target="_blank" class="project-link">
+                                        Visit Live Site
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="xp-card">
+                                <h3>Social Dashboard</h3>
+                                <p>
+                                    Real-time analytics dashboard with interactive charts and
+                                    data visualization for social media metrics Real-time
+                                    analytics dashboard with interactive charts and data
+                                    visualization for social media metrics Real-time analytics
+                                    dashboard with interactive charts and data visualization for
+                                    social media metrics.
+                                </p>
+                                <div class="xp-footer">
+                                    <div class="xp-tags">
+                                        <span class="xp-tag">React</span>
+                                        <span class="xp-tag">D3.js</span>
+                                        <span class="xp-tag">Redux</span>
+                                    </div>
+
+                                    <a href="https://diamond-web-sneh.netlify.app" target="_blank" class="project-link">
+                                        Visit Live Site
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Custom Pagination -->
+                    <div class="swiper-pagination xp-swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification  -->
+
+    <div class="certification" id="Certificate">
+        <div class="section-header">
+            <h2 class="section-title">Certifications</h2>
+        </div>
+
+        <div class="certificate-container">
+            <div class="certificate-card">
+                <div class="certificate-left">
+                    <h3 class="certificate-title">Wise Up</h3>
+                    <p class="certificate-subtitle">Certificate in advanced English</p>
+                    <div class="certificate-date">Jan 2020 • Present</div>
+                </div>
+                <div class="certificate-right">
+                    <button class="view-certificate" onclick="viewCertificate('wise-up-1')">
+                        View certificate
+                    </button>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <div class="certificate-left">
+                    <h3 class="certificate-title">Wise Up</h3>
+                    <p class="certificate-subtitle">Certificate in advanced English</p>
+                    <div class="certificate-date">Jan 2020 • Present</div>
+                </div>
+                <div class="certificate-right">
+                    <button class="view-certificate" onclick="viewCertificate('wise-up-2')">
+                        View certificate
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Experience -->
+
+    <div class="experience-container" id="experience">
+        <!-- Work Experience Header -->
+        <div class="work-header">
+            <h1 class="section-title">Work Experience</h1>
+        </div>
+
+        <!-- First Experience -->
+        <div class="experience-card">
+            <div class="job-info">
+                <h1 class="job-title">ReactJS Frontend</h1>
+                <div class="position-type">Intern</div>
+                <div class="employment-details">
+                    <div>
+                        Jan 2024
+                        <span style="color: #5fb9b0; font-size: 18px">•</span> Oct 2024
+                    </div>
+                    <div>Rajkot</div>
+                </div>
+            </div>
+            <div class="job-description">
+                <h2 class="company-name">Zennaxx Technology ( Intern )</h2>
+                <p class="description-text">
+                    During my internship in Zennaxx, I worked extensively on React.js
+                    Frontend Development, where I gained practical experience in
+                    building dynamic and responsive user interfaces. I was actively
+                    involved in mobile app design and implementation, focusing on
+                    creating clean and intuitive layouts. My work included responsive
+                    web and mobile UI design, ensuring seamless user experiences across
+                    all devices.
+                </p>
+                <p class="description-text">
+                    In addition, I contributed to web design and development using HTML,
+                    CSS, JavaScript, and Bootstrap, strengthening my front-end
+                    development skills and understanding of modern design systems. I
+                    also had the opportunity to work on a live company project, where I
+                    implemented several design components in React.js and collaborated
+                    with the development team to maintain consistency and performance.
+                </p>
+            </div>
+        </div>
+
+        <!-- Second Experience -->
+        <div class="experience-card">
+            <div class="job-info">
+                <h1 class="job-title">ReactJS Developer</h1>
+                <div class="position-type">Course</div>
+                <div class="employment-details">
+                    <div>
+                        Jan 2024
+                        <span style="color: #5fb9b0; font-size: 18px">•</span> Oct 2024
+                    </div>
+                    <div>Rajkot</div>
+                </div>
+            </div>
+            <div class="job-description">
+                <h2 class="company-name">Dreamspot IT Academy</h2>
+                <p class="description-text">
+                    I successfully completed the ReactJS Developer course at Dreamspot
+                    IT Academy, where I gained in-depth knowledge of modern frontend
+                    development and the React ecosystem. The course covered key concepts
+                    such as component-based architecture, state and props management,
+                    React Hooks, React Router, and API integration. I also learned how
+                    to build responsive and dynamic web applications using HTML, CSS,
+                    JavaScript, and ReactJS.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Get in touch Section -->
+
+    <section id="contact" class="git-contact-wrapper">
+        <div class="git-main-container">
+            <div class="git-header-section">
+                <h1 class="git-main-title">Get In Touch</h1>
+                <p class="git-description-text">I'm always open to discussing new opportunities and interesting
+                    projects. Let's connect and see how we can work together.</p>
+            </div>
+
+            <div class="git-cards-grid">
+                <!-- LinkedIn Card -->
+                <a href="https://www.linkedin.com/in/mital-vindhani-467774159/" target="_blank" class="git-info-card">
+                    <div class="git-icon-circle">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="git-card-heading">LinkedIn</h3>
+                    <p class="git-card-description">Connect with me professionally and explore my career journey</p>
+                </a>
+
+                <!-- Email Card -->
+                <!-- Email Card -->
+                <a href="mailto:mitalvindhani123@gmail.com" class="git-info-card">
+                    <div class="git-icon-circle">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="git-card-heading">Email Me</h3>
+                    <p class="git-card-description">Drop me a message and I'll get back to you as soon as possible</p>
+                </a>
+
+
+                <!-- GitHub Card -->
+
+                <a href="https://github.com/Mitalvindhani" target="_blank" class="git-info-card">
+                    <div class="git-icon-circle">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="git-card-heading">GitHub</h3>
+                    <p class="git-card-description">Check out my code repositories and open-source contributions</p>
+                </a>
+            </div>
+
+            <div class="git-footer-area">
+                <p class="git-footer-content">© 2025 Designed and developed by <span class="git-author-name">Mital
+                        Vindhani</span></p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script>
+        function toggleMenu() {
+            const dropdown = document.getElementById("dropdownMenu");
+            dropdown.classList.toggle("active");
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener("click", function (event) {
+            const nav = document.querySelector("nav");
+            const dropdown = document.getElementById("dropdownMenu");
+
+            if (!nav.contains(event.target)) {
+                dropdown.classList.remove("active");
+            }
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll(".dropdown-menu a").forEach((link) => {
+            link.addEventListener("click", function () {
+                document.getElementById("dropdownMenu").classList.remove("active");
+            });
+        });
+    </script>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper
+        const swiper = new Swiper(".xp-swiper", {
+            // Optional parameters
+            slidesPerView: "auto",
+            spaceBetween: 24,
+            loop: false,
+            centeredSlides: false,
+
+            // Pagination
+            pagination: {
+                el: ".xp-swiper-pagination",
+                clickable: true,
+            },
+
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 20,
+                },
+                // when window width is >= 768px
+                768: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 24,
+                },
+                // when window width is >= 1024px
+                1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 24,
+                },
+                // when window width is >= 1200px
+                1200: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 24,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>
